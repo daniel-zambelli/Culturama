@@ -293,7 +293,7 @@ img:hover {
   background-color: var(--cinza-escuro);
   color: white;
   text-transform: uppercase;
-  padding-top: 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .agenda__informacoes h3 {
