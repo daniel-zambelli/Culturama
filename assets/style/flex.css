@@ -40,7 +40,7 @@
   max-width: 400px;
 }
 
-/* AGENDA */
+/* AGENDA FLEXBOX */
 .agenda__lista {
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +60,7 @@
 }
 
 .agenda__informacoes .agenda_atracao {
-  align-items: center;
+  align-self: center;
 }
 
 /* Query para telas 720px */
