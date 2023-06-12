@@ -51,16 +51,24 @@
 
 .agenda__item {
   flex-grow: 1;
+  max-width: 400px;
 }
 
-.agenda__componentes {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
+/* 
 .agenda__informacoes .agenda_atracao {
   align-self: center;
+} */
+
+/* FOOTER */
+.rodape {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.rodape__logo {
+  align-self: flex-end;
 }
 
 /* Query para telas 720px */
@@ -77,6 +85,7 @@
     row-gap: 0.5rem;
   }
 
+  /* EVENTOS */
   .eventos__lista {
     justify-content: flex-end;
   }
@@ -84,6 +93,11 @@
   /* AGENDA */
   .agenda__lista {
     justify-content: flex-end;
+  }
+
+  /* FOOTER */
+  .rodape {
+    justify-content: space-between;
   }
 }
 
