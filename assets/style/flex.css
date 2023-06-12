@@ -54,17 +54,11 @@
   max-width: 400px;
 }
 
-/* 
-.agenda__informacoes .agenda_atracao {
-  align-self: center;
-} */
-
 /* FOOTER */
 .rodape {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .rodape__logo {
@@ -93,11 +87,6 @@
   /* AGENDA */
   .agenda__lista {
     justify-content: flex-end;
-  }
-
-  /* FOOTER */
-  .rodape {
-    justify-content: space-between;
   }
 }
 
